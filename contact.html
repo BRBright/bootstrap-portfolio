@@ -4,47 +4,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>    
+    
+    <title>Document</title>
     <link rel="stylesheet" href="assets/html_rest.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/style.css">
-
 </head>
 <body>
-    <div class="top clearfix">
-        <header class="myName">
-            <h1>Billy Bright</h1>
-        </header>
-        
-        <nav>
-            <a href="index.html">About</a>
-            <a href="portfolio.html">Portfolio</a>
-            <a href="contact.html">Contact</a>
-        </nav>
-    </div>
-    <section class="contacts">
-        <div>
-            <h3>Contact</h3>
-            <div>
-                <div class="input">
-                    <a class="info">Name:</a>
-                    <textarea placeholder="Name" type="text" name="name" required></textarea>
+    <header id="masterhead">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-11">
+                    <a href="index.html" id="logo">Billy Bright</a>
                 </div>
-                <div class="input">
-                    <a class="info">Email:</a>
-                    <textarea placeholder="Email" type="email" name="email" required></textarea>
-                </div>
-                <div class="input">
-                    <a class="info">Message:</a>
-                    <textarea placeholder="Message" type="comment"></textarea>
-                </div>
-                <a class="btn" href="#">
-                    Send
-                </a>
+            <div class="col-lg-6 col-md-6 col-sm-11">
+            <nav>
+                <ul class="nav justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    </ul>
+            </nav>
             </div>
-        </div>
-    </section>
+        </div> 
+    </header>
+    <div id="main-container" class="container">
+        <section class="main-section">
+            <h1>Contact</h1>
+                  
+                <form id="contact-form">
+                    <ul>
+                        <li>
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+                        </li>
+                        <li>
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+                        </li>
+                        <li>
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" required="required"></textarea>
+                        </li>
+                    </ul>
+                        <input type="submit">
+                </form>  
+        </section>                
+    </div>        
     <footer>
-        <a>copyright &#169</a>
+        <div class="container">
+            <a>copyright &#169</a>
+        </div>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
