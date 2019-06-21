@@ -59,9 +59,6 @@ body {
       content: "";
       clear: both;
     }
-    .col-sm-11 {
-        padding-right: 55px;
-    }
   
   /* header */
   header {
