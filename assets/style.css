@@ -55,7 +55,6 @@ h3 {
   width: 300px;
   height: auto;
   margin: 40px;
-  transform: rotate(-90deg)
 }
   
 .work {
@@ -132,7 +131,6 @@ input[type=submit] {
     height: 100%;
     padding-right: 10px;
     padding-left: 10px;
-    transform: rotate(-90deg)
   }
   .container{
     display: flex;
@@ -176,7 +174,6 @@ input[type=submit] {
     padding-right: 10px;
     padding-left: 10px;
     height: 75%;
-    transform: rotate(-90deg)
   }
 }
 @media screen  and (min-width: 765px) {
@@ -186,6 +183,29 @@ input[type=submit] {
     padding-right: 35px;
     padding-left: 40px;
     height: 50%;
-    transform: rotate(-90deg)
+  }
+}
+@media screen and (min-width: 1024px){
+  .deskTop {
+    display: block;
+  }
+  
+  .auth-image {
+    float: left;
+    width: 45%;
+    padding-right: 55px;
+    padding-left: 40px;
+  }
+}
+@media screen and (min-width: 1200px){
+  .deskTop {
+    display: block;
+  }
+  
+  .auth-image {
+    float: left;
+    width: 45%;
+    padding-right: 55px;
+    padding-left: 40px;
   }
 }
