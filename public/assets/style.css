@@ -73,6 +73,7 @@ footer {
   text-align: center;
   background: #777777;
   height: 50px;
+  margin-top: 3em;
 }
 /* main */
 
@@ -136,7 +137,6 @@ textarea {
 input[type="submit"] {
   padding: 10px 30px;
   font-size: 18px;
-  margin-bottom: 75px;
   color: #ffffff;
   cursor: pointer;
   background: #777777;
